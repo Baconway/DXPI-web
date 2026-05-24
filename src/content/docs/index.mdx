@@ -1,40 +1,42 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to DXPI
+description: Get data from maimaiDXNET easily!
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Making DXNET easier to extract data from
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/drkm2.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Usage
+      link: /guides/token/
+      icon: right-caret
+    - text: Documentation
+      link: /reference/user/
       icon: external
-      variant: minimal
+      variant: secondary
+head:
+  - tag: title
+    content: DXPI
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## Features
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+  <Card title="Simple REST API" icon="pencil">
+    Access DXNET data using familiar HTTP endpoints for fast integration.
+  </Card>
+  <Card title="Lightweight" icon="cloud-download">
+    Small footprint with minimal dependencies so it stays easy to deploy.
+  </Card>
+  <Card title="Fast responses" icon="clock">
+    Optimized request handling for quick data retrieval and low latency.
+  </Card>
+  <Card title="Structured data" icon="seti:default">
+    Returns consistent JSON payloads that are easy to consume in apps.
+  </Card>
+  <Card title="Extensible" icon="add-document">
+    Built to support new endpoints and data sources as DXPI grows.
+  </Card>
 </CardGrid>

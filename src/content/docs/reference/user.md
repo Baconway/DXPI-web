@@ -1,6 +1,10 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: User
+description: The reference page of the User resource for DXPI
+sidebar:
+  badge:
+    text: POST
+    variant: note
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
