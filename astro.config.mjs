@@ -6,6 +6,7 @@ import StarlightCatppuccin from "@catppuccin/starlight";
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: "/chiffon.png",
       title: "DXPI",
       social: [
         {
