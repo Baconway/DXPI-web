@@ -26,7 +26,7 @@ Get the user best 50 songs (B50).
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/song/b50?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/song/b50?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: application/json" \
 
 ```

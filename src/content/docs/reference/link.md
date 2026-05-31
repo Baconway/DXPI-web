@@ -6,7 +6,7 @@ description: The API link for DXPI
 ## Base URL
 
 ```txt
-https://api.bway.lol/endpoint?cookie=$cookie
+https://dxpi.bway.lol/endpoint?cookie=$cookie
 ```
 
 ## Available Methods

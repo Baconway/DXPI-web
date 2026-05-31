@@ -20,7 +20,7 @@ Get a script to get your cookie.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/social/token/embed \
+curl -X POST https://dxpi.bway.lol/social/token/embed \
 
 ```
 

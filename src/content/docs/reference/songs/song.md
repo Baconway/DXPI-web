@@ -26,7 +26,7 @@ Get basic information about a song.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/song?name='SONG_NAME_HERE \
+curl -X POST https://dxpi.bway.lol/song?name='SONG_NAME_HERE \
   -H "Content-Type: application/json" \
 
 ```

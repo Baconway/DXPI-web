@@ -26,7 +26,7 @@ Get all taken photos of the user.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/user/album?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/user/album?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: application/json" \
 
 ```

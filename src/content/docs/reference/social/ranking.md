@@ -26,7 +26,7 @@ Get current circle ranking for the day.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/social/circleRank?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/social/circleRank?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: text/csv" \
 
 ```

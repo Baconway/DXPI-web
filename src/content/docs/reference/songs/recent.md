@@ -26,7 +26,7 @@ Get the user's recent credit (3/4 songs).
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/song/recent?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/song/recent?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: application/json" \
 
 ```

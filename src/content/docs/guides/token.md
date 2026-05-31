@@ -36,7 +36,7 @@ Right-click the `clal` cookie and select **Copy value** (or manually select and 
 Include your token in API requests as a cookie header:
 
 ```bash
-curl https://api.bway.lol/endpoint?cookie=$YOUR_COOKIE_HERE
+curl https://dxpi.bway.lol/endpoint?cookie=$YOUR_COOKIE_HERE
 ```
 
 ## Troubleshooting

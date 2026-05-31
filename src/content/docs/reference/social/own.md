@@ -26,7 +26,7 @@ Get information about your current circle.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/social/circle?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/social/circle?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: application/json" \
 
 ```

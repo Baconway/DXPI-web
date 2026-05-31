@@ -26,7 +26,7 @@ Get more advanced statistics information about the user.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/user/stats?cookie=YOUR_COOKIE_HERE \
+curl -X POST https://dxpi.bway.lol/user/stats?cookie=YOUR_COOKIE_HERE \
   -H "Content-Type: application/json" \
 
 ```

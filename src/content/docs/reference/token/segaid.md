@@ -33,7 +33,7 @@ Get the desired SegaID's login cookie.
 ### Example Request
 
 ```bash
-curl -X POST https://api.bway.lol/token/sid \
+curl -X POST https://dxpi.bway.lol/token/sid \
   -H "Content-Type: application/json" \
   -d '{
     "sid": "bway",
