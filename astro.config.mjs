@@ -11,7 +11,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/Baconway/DXPI-web",
         },
       ],
       plugins: [
@@ -26,40 +26,47 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Getting your Token", slug: "guides/token" },
-            { label: "Getting user data", slug: "guides/user" },
-            { label: "Using song data", slug: "guides/song" },
           ],
         },
         {
           label: "Reference",
           items: [
             {
+              label: "Token",
+              items: ["reference/token/segaid", "reference/token/embed"],
+            },
+            {
               label: "User",
               items: [
-                "reference/user",
-                "reference/user_stats",
-                "reference/user_album",
+                "reference/user/user",
+                "reference/user/user_stats",
+                "reference/user/user_album",
               ],
             },
 
             {
               label: "Songs",
-              items: ["reference/song", "reference/song_scores"],
-            },
-
-            {
-              label: "Plays",
-              items: ["reference/recent", "reference/top_plays"],
+              items: [
+                "reference/songs/song",
+                "reference/songs/recent",
+                "reference/songs/top_plays",
+              ],
             },
 
             {
               label: "Collection",
-              items: ["reference/cosmetics", "reference/members"],
+              items: [
+                "reference/collection/cosmetics",
+                "reference/collection/members",
+              ],
+            },
+
+            {
+              label: "Circle",
+              items: ["reference/social/own", "reference/social/ranking"],
             },
           ],
         },
-
-        { label: "Miscellaneous", items: ["misc/cors"] },
       ],
     }),
   ],

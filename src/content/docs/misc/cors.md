@@ -1,5 +1,5 @@
 ---
-title: CORS Policies
+title: CORS
 description: The reference page of the User resource for DXPI
 sidebar:
   badge:
